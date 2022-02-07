@@ -1,1 +1,64 @@
+body {
+    max-width: 800px;
+    margin: 24px auto;
+    background-image: url("moroccan-flower.png");
+}
 
+.sidenav {
+    width: 75px;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: rgb(229, 149, 149);
+    overflow-x: hidden;
+    padding: 8px 0;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #f5746b;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #064579;
+  }
+  
+  .main {
+    margin-right: 140px;
+    font-size: 14px;
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 14px;}
+    .sidenav {float: right;}
+  }
+
+img {
+float: right;  
+}
+
+header > nav {
+    float: right;
+}
+
+article {
+    float: right
+    max-width: 700px;
+}
+
+h3{ 
+    display: inline-block;
+}
+article aside {
+    float: left;
+}
+
+footer {
+    text-align: center;
+}
